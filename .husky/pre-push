@@ -1,0 +1,4 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+npx gitea-cli sync http://localhost:3000/wumacoder/gitea-repo.git -t e6fe15f4685f4dba6be2004b4a768e598dfc973a -o wumacoder -r gitea-repo
