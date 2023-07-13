@@ -1,0 +1,14 @@
+name: Publish
+run-name: ${{ gitea.actor }} Actions 🚀
+on:
+  push:
+    branches:
+      - 'release/**'
+
+jobs:
+  Publish-Weapp-Actions:
+    runs-on: self-hosted
+    steps:
+      - run: echo "🎉 The job was automatically triggered by a ${{ gitea.event_name }} event."
+      - run: echo "🎉 检查当前目录 $PWD | ${{ PWD }} ."
+      - run: echo "🍏 This job's status is ${{ job.status }}."
