@@ -12,6 +12,9 @@ devDependencies:
   '@commitlint/config-conventional':
     specifier: ^17.6.6
     version: registry.npmjs.org/@commitlint/config-conventional@17.6.6
+  '@semantic-release/changelog':
+    specifier: ^6.0.3
+    version: registry.npmjs.org/@semantic-release/changelog@6.0.3(semantic-release@21.0.7)
   '@semantic-release/git':
     specifier: ^10.0.1
     version: registry.npmjs.org/@semantic-release/git@10.0.1(semantic-release@21.0.7)
@@ -505,6 +508,22 @@ packages:
       '@pnpm/config.env-replace': registry.npmjs.org/@pnpm/config.env-replace@1.1.0
       '@pnpm/network.ca-file': registry.npmjs.org/@pnpm/network.ca-file@1.0.2
       config-chain: registry.npmjs.org/config-chain@1.1.13
+    dev: true
+
+  registry.npmjs.org/@semantic-release/changelog@6.0.3(semantic-release@21.0.7):
+    resolution: {integrity: sha512-dZuR5qByyfe3Y03TpmCvAxCyTnp7r5XwtHRf/8vD9EAn4ZWbavUX8adMtXYzE86EVh0gyLA7lm5yW4IV30XUag==, registry: https://registry.yarnpkg.com/, tarball: https://registry.npmjs.org/@semantic-release/changelog/-/changelog-6.0.3.tgz}
+    id: registry.npmjs.org/@semantic-release/changelog/6.0.3
+    name: '@semantic-release/changelog'
+    version: 6.0.3
+    engines: {node: '>=14.17'}
+    peerDependencies:
+      semantic-release: '>=18.0.0'
+    dependencies:
+      '@semantic-release/error': registry.npmjs.org/@semantic-release/error@3.0.0
+      aggregate-error: registry.npmjs.org/aggregate-error@3.1.0
+      fs-extra: registry.npmjs.org/fs-extra@11.1.1
+      lodash: registry.npmjs.org/lodash@4.17.21
+      semantic-release: registry.npmjs.org/semantic-release@21.0.7
     dev: true
 
   registry.npmjs.org/@semantic-release/commit-analyzer@10.0.1(semantic-release@21.0.7):
