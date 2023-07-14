@@ -11,9 +11,9 @@ jobs:
     steps:
       - run: echo "🎉 The job was automatically triggered by a ${{ gitea.event_name }} event."
       - run: echo "🎉 检查当前目录 ${{ env.GITHUB_WORKSPACE }} ."
+      - run: node -v
       - run: npx gitea-cli origin pull /Users/wmc/work/_temp/gitea-ci/test-repo -r "https://github.com/WumaCoder/gitea-repo"
       - run: cd /Users/wmc/work/_temp/gitea-ci/test-repo
-      - run: npx nvm use 18
       - run: npx semantic-release --no-ci
       - run: git push --no-ff
       - run: echo "🍏 This job's status is ${{ job.status }}."
