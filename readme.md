@@ -8,4 +8,4 @@ npm config set registry http://localhost:3000/api/packages/wumacoder/npm/
 npm config set -- '//localhost:3000/api/packages/wumacoder/npm/:_authToken' "e6fe15f4685f4dba6be2004b4a768e598dfc973a"
 ```
 
-xiu
+xiuxxx
