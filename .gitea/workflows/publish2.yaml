@@ -1,4 +1,4 @@
-name: Publish
+name: Publish2
 run-name: ${{ gitea.actor }} Actions 🚀
 on:
   push:
