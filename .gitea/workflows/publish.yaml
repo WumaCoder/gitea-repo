@@ -11,10 +11,5 @@ jobs:
     steps:
       - run: echo "🎉 The job was automatically triggered by a ${{ gitea.event_name }} event."
       - run: echo "🎉 检查当前目录 ${{ env.GITHUB_WORKSPACE }} ."
-      - name: Check out repository code
-        uses: actions/checkout@v3
-        with:
-          repository: "https://github.com/WumaCoder/gitea-repo"
-          ref: 'release/pro'
-      - run: git remote -v
+      - run: npx -v
       - run: echo "🍏 This job's status is ${{ job.status }}."
