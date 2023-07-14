@@ -6,6 +6,7 @@
   "main": "index.js",
   "scripts": {
     "prepare": "husky install",
+    "release": "git push origin release/pro -f && git push",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
