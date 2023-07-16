@@ -3,7 +3,8 @@ run-name: ${{ gitea.actor }} Actions 🚀
 on:
   push:
     branches:
-      - 'release/**'
+      - 'main'
+      # - 'release/**'
 
 jobs:
   Publish-Weapp-Actions:
