@@ -6,7 +6,7 @@
   "main": "index.js",
   "scripts": {
     "prepare": "husky install",
-    "release": "git push origin main:release/pro -f && git push && npx gitea-cli sync http://localhost:3000/wumacoder/gitea-repo.git -t e6fe15f4685f4dba6be2004b4a768e598dfc973a -o wumacoder -r gitea-repo",
+    "release": "git merge origin/release/pro && git push origin main:release/pro && git push && npx gitea-cli sync http://localhost:3000/wumacoder/gitea-repo.git -t e6fe15f4685f4dba6be2004b4a768e598dfc973a -o wumacoder -r gitea-repo",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
