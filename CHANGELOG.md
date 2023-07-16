@@ -1,3 +1,11 @@
+## [1.2.1](https://github.com/WumaCoder/gitea-repo/compare/v1.2.0...v1.2.1) (2023-07-16)
+
+
+### Bug Fixes
+
+* 修复ci ([c054dba](https://github.com/WumaCoder/gitea-repo/commit/c054dbaa033ae5630196ebf8ee213492bddef1ce))
+* 修复配置 ([e18be0f](https://github.com/WumaCoder/gitea-repo/commit/e18be0f16ba387c9f69a003e7a659f2635a1ce9e))
+
 # [1.2.0](https://github.com/WumaCoder/gitea-repo/compare/v1.1.1...v1.2.0) (2023-07-16)
 
 
