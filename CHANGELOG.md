@@ -1,3 +1,10 @@
+## [1.3.7](https://github.com/WumaCoder/gitea-repo/compare/v1.3.6...v1.3.7) (2023-07-17)
+
+
+### Bug Fixes
+
+* 修改配置 ([283f22e](https://github.com/WumaCoder/gitea-repo/commit/283f22e87f75d8f736ab4eafad022e204a56e541))
+
 ## [1.3.6](https://github.com/WumaCoder/gitea-repo/compare/v1.3.5...v1.3.6) (2023-07-17)
 
 
