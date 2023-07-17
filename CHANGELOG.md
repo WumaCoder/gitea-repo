@@ -1,3 +1,22 @@
+# [1.3.0](https://github.com/WumaCoder/gitea-repo/compare/v1.2.2...v1.3.0) (2023-07-17)
+
+
+### Bug Fixes
+
+* t ([7a3a003](https://github.com/WumaCoder/gitea-repo/commit/7a3a0039b74a9a73c373901b8ab7311693e92dcb))
+* 修复 ([821f876](https://github.com/WumaCoder/gitea-repo/commit/821f876c579b6e12df513dddca2c301fbe7febd6))
+* 修复细节 ([d911f7f](https://github.com/WumaCoder/gitea-repo/commit/d911f7faba1ac696cae917acf0c908ef0307c816))
+* 修复脚步 ([ba55e92](https://github.com/WumaCoder/gitea-repo/commit/ba55e9254e34b64f2b1e4cffc6edb0946e02024e))
+* 修复配置 ([60bbade](https://github.com/WumaCoder/gitea-repo/commit/60bbade5dfbbb55a8312342e7fca52ddb1b85352))
+* 去除ci ([909e19b](https://github.com/WumaCoder/gitea-repo/commit/909e19b51453ffef0ca48a9bd4ce67737d608b9b))
+* 添加内容 ([f1cdfda](https://github.com/WumaCoder/gitea-repo/commit/f1cdfdab51d7174b852be4b7d31b5c0b40da0eb0))
+
+
+### Features
+
+* 添加b ([ad6be3e](https://github.com/WumaCoder/gitea-repo/commit/ad6be3e34424535704c21ffbc5c8a814725f3033))
+* 添加一行 ([bced400](https://github.com/WumaCoder/gitea-repo/commit/bced400b8a303f71f90a4ae1a17814a7496103dc))
+
 ## [1.2.2](https://github.com/WumaCoder/gitea-repo/compare/v1.2.1...v1.2.2) (2023-07-16)
 
 
