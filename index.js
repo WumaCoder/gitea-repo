@@ -2,6 +2,7 @@ const express = require('express')
 const app = express()
 require('dotenv').config()
 const port = process.env.PORT || 5000
+const env = require('./.env.js');
 
 // !important! 
 // you need to install the following libraries |express|[dotenv > if required]
@@ -9,7 +10,7 @@ const port = process.env.PORT || 5000
 
 app.get('/' , (req , res)=>{
 
-   res.send('hello from simple server :)12 {{VERSION}}')
+   res.send(`hello from simple server :)12 ${env.version}`)
 
 })
 
