@@ -4,6 +4,9 @@
     "@semantic-release/commit-analyzer",
     "@semantic-release/release-notes-generator",
     "@semantic-release/changelog",
+    ["@semantic-release/exec", {
+      "publishCmd": "npm run ci:hook:publishBefore --version=${nextRelease.version}"
+    }],
     [
       "@semantic-release/git",
       {
