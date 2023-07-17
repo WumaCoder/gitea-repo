@@ -1,3 +1,10 @@
+## [1.3.10](https://github.com/WumaCoder/gitea-repo/compare/v1.3.9...v1.3.10) (2023-07-17)
+
+
+### Bug Fixes
+
+* 测试脚本执行 ([da5c457](https://github.com/WumaCoder/gitea-repo/commit/da5c457bc53163e5c7b568316568c8cff8cd0060))
+
 ## [1.3.9](https://github.com/WumaCoder/gitea-repo/compare/v1.3.8...v1.3.9) (2023-07-17)
 
 
