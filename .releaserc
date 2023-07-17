@@ -13,7 +13,6 @@
     [
       "semantic-release-feishu2",
       {
-        "platforms": ["brew", "npm"],
         "semverFilter": ["major", "minor", "patch"],
         "failureMessage": true
       }
