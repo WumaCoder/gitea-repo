@@ -14,5 +14,5 @@ jobs:
       - run: echo "🎉 检查当前目录 ${{ env.GITHUB_WORKSPACE }} ."
       - run: node -v
       - run: npx gitea-cli origin pull /Users/wmc/work/_temp/gitea-ci/test-repo -r "https://github.com/WumaCoder/gitea-repo"
-      - run: cd /Users/wmc/work/_temp/gitea-ci/test-repo && git tag --merged release/pro # npx semantic-release --no-ci && git push
+      - run: cd /Users/wmc/work/_temp/gitea-ci/test-repo && npx semantic-release && git push
       - run: echo "🍏 This job's status is ${{ job.status }}."
