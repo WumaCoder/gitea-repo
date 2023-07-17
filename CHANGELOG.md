@@ -1,3 +1,11 @@
+## [1.3.2](https://github.com/WumaCoder/gitea-repo/compare/v1.3.1...v1.3.2) (2023-07-17)
+
+
+### Bug Fixes
+
+* 修复命令 ([354d2df](https://github.com/WumaCoder/gitea-repo/commit/354d2df0d685b80ab715330c3471d22fa15923d1))
+* 提交内容 ([080686d](https://github.com/WumaCoder/gitea-repo/commit/080686d65e60f0db1533f22055760ea08f6a1876))
+
 ## [1.3.1](https://github.com/WumaCoder/gitea-repo/compare/v1.3.0...v1.3.1) (2023-07-17)
 
 
