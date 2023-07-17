@@ -1,3 +1,10 @@
+## [1.3.8](https://github.com/WumaCoder/gitea-repo/compare/v1.3.7...v1.3.8) (2023-07-17)
+
+
+### Bug Fixes
+
+* 添加脚本逻辑 ([7772cdf](https://github.com/WumaCoder/gitea-repo/commit/7772cdf7df932bc8d51bc3fb035e486424261c0a))
+
 ## [1.3.7](https://github.com/WumaCoder/gitea-repo/compare/v1.3.6...v1.3.7) (2023-07-17)
 
 
