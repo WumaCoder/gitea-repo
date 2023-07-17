@@ -9,6 +9,14 @@
       {
         "message": "chore: release ${nextRelease.version} [skip ci]"
       }
+    ],
+    [
+      "semantic-release-feishu2",
+      {
+        "platforms": ["brew", "npm"],
+        "semverFilter": ["major", "minor", "patch"],
+        "failureMessage": true
+      }
     ]
   ]
 }
