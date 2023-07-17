@@ -11,6 +11,19 @@
       }
     ],
     [
+      "semantic-release-weapp",
+      {
+        "type": "miniProgram",
+        "privateKeyPath": "the/path/to/privatekey",
+        "ignores": [
+            "node_modules/**/*"
+        ],
+        "setting": {
+          "es6": true
+        }
+    }
+    ],
+    [
       "semantic-release-feishu2",
       {
         "semverFilter": ["major", "minor", "patch"],
