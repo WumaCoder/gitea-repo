@@ -9,7 +9,7 @@ const port = process.env.PORT || 5000
 
 app.get('/' , (req , res)=>{
 
-   res.send('hello from simple server :)12')
+   res.send('hello from simple server :)12 {{VERSION}}')
 
 })
 

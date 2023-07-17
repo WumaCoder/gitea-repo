@@ -1,6 +1,9 @@
 lockfileVersion: '6.0'
 
 dependencies:
+  commander:
+    specifier: ^11.0.0
+    version: registry.npmjs.org/commander@11.0.0
   express:
     specifier: ^4.18.2
     version: registry.npmjs.org/express@4.18.2
@@ -1029,7 +1032,6 @@ packages:
     name: commander
     version: 11.0.0
     engines: {node: '>=16'}
-    dev: true
 
   registry.npmjs.org/compare-func@2.0.0:
     resolution: {integrity: sha512-zHig5N+tPWARooBnb0Zx1MFcdfpyJrfTJ3Y5L+IFvUm8rM74hHz66z0gw0x4tijh5CorKkKUCnW82R2vmpeCRA==, registry: https://registry.yarnpkg.com/, tarball: https://registry.npmjs.org/compare-func/-/compare-func-2.0.0.tgz}
