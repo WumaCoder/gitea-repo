@@ -14,6 +14,12 @@ jobs:
       - run: echo "🎉 The job was automatically triggered by a ${{ gitea.event_name }} event."
       - run: echo "🎉 检查当前目录 ${{ env.GITHUB_WORKSPACE }} ."
       - run: node -v
-      - run: npx gitea-cli origin pull /Users/wmc/work/_temp/gitea-ci/test-repo -r "https://github.com/WumaCoder/gitea-repo"
-      - run: cd /Users/wmc/work/_temp/gitea-ci/test-repo && npx semantic-release && git push
+      - name: RunBuild
+        env: 
+          FEISHU_WEBHOOK_URL: https://open.feishu.cn/open-apis/bot/v2/hook/482fcfc9-80e9-45b7-a893-5b66b6dbb8b3
+        run: | 
+          npx gitea-cli origin pull /Users/wmc/work/_temp/gitea-ci/test-repo -r "https://github.com/WumaCoder/gitea-repo"
+          cd /Users/wmc/work/_temp/gitea-ci/test-repo
+          npx semantic-release
+          git push
       - run: echo "🍏 This job's status is ${{ job.status }}."
